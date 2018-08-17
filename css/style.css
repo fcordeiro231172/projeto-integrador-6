@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 14px;
+}
+
+body>.container-fluid{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  text-align: center;
+  border: 1px solid black;
+}
+.footer{
+  text-align: center;
+  border: 1px solid black;
+}
