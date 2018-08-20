@@ -10,11 +10,40 @@ body>.container-fluid{
   margin: 0;
   padding: 0;
 }
-.header{
-  text-align: center;
-  border: 1px solid black;
-}
+
 .footer{
   text-align: center;
   border: 1px solid black;
+}
+.compras{
+ font-size: 1.2rem;
+ position: relative;
+ float: right;
+ clear: right;
+ margin-top: 15px;
+ margin-right: 20px;
+}
+.compras ul li:hover{
+  text-decoration: underline;
+}
+
+.compras p{
+  margin: 0;
+  height: 10px;
+  float: right;
+  clear: right;
+  margin-right: 60px;
+}
+.compras ul{
+  list-style-type: none;
+  color: gray;
+}
+.compras ul li{
+  display: inline-block;
+  padding: 10px 10px 0;
+}
+.compras img{
+  width: 30px;
+  padding-bottom: 10px;
+  margin-top: 0;
 }
