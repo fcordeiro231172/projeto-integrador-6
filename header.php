@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-fixed-top navbar-default" style="height: 70px; background-color: white;">
+<nav class="navbar navbar-fixed-top navbar-default" style="background-color: white;">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
