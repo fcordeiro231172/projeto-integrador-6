@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
 *{
   box-sizing: border-box;
 }
 
 body{
   font-size: 14px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 body>.container-fluid{
@@ -11,39 +14,114 @@ body>.container-fluid{
   padding: 0;
 }
 
+
+/* MENU PRODUTOS */
+.navbar-nav>li {
+    float: right;
+}
+.navbar-nav>li>a{
+  margin-top:25px; padding: 13px 24px;
+}
+.dropdown-menu p{
+  display: inline-block;
+}
+
+
+/* LOGIN E CARRINHO */
+.compras{
+ font-size: 1.2rem;
+ position: relative;
+ margin-top: 15px;
+ margin-right: 20px;
+ text-align: right;
+}
+.compras .glyphicon {
+    color: #009cab;
+}
+.compras p{
+  margin: 20px;
+  display: inline-block;
+}
+
+
+/* BUSCA */
+.navbar-form{
+margin-left:120px;
+margin-top: 25px;
+}
+.navbar-form .input-group{
+  float: right;
+}
+.busca {
+background-color: #b5dbdc;
+}
+.busca form.navbar-form{
+  margin: 0 auto;
+  width: 400px;
+  max-width: 100%;
+  float: right;
+}
+.busca form.navbar-form input {
+background-color: transparent;
+border: none;
+box-shadow: none;
+font-size: 18px;
+margin-top: 3px;
+color: white;
+}
+.busca input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+.busca input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+.busca input::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+.busca .glyphicon {
+  color: white;
+}
+.carrinho span{
+  font-size: 2em;
+}
+.busca form.navbar-form button{
+background-color: transparent;
+border: none;
+padding: 9px 15px 5px;
+color: gray;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 0;
+}
+
+
+/* FOOTER */
 .footer{
   text-align: center;
   border: 1px solid black;
 }
-.compras{
- font-size: 1.2rem;
- position: relative;
- float: right;
- clear: right;
- margin-top: 15px;
- margin-right: 20px;
-}
-.compras ul li:hover{
-  text-decoration: underline;
-}
 
-.compras p{
-  margin: 0;
-  height: 10px;
-  float: right;
-  clear: right;
-  margin-right: 60px;
+
+/* RESPONSIVO DO HEADER */
+@media (max-width: 768px) {
+nav.navbar .navbar-nav{
+ margin-left: 10px;
 }
-.compras ul{
-  list-style-type: none;
-  color: gray;
+.navbar-nav>li {
+ float: left;
+ width: 100%;
 }
-.compras ul li{
-  display: inline-block;
-  padding: 10px 10px 0;
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+ max-height: 100%;
 }
-.compras img{
-  width: 30px;
-  padding-bottom: 10px;
-  margin-top: 0;
+.navbar-brand{
+ height: 75px;
+}
+.navbar-form {
+ margin-left: 0px;
+}
+.navbar-toggle{
+ margin-top: 22px;
+}
 }
