@@ -28,7 +28,7 @@
 
       <!-- FOOTER -->
       <div class="footer">
-        Footer será criado por Flávio
+        <?php include ("footer.php"); ?>
       </div>
 
   </div>
