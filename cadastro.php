@@ -16,8 +16,8 @@
           include ("header.php");
        ?>
     </header>
-      <h2>Formulário de Cadastro</h2>
       <row>
+        <h2>Formulário de Cadastro</h2>
         <form class="form-inline" action="/action_page.php">
           <div class="form-group">
               <label for="email" class="mr-sm-2">Email</label>
@@ -81,7 +81,7 @@
       </row>
     <footer>
       <?php
-          include ("footer.php");
+        include ("footer.php");
        ?>
     </footer>
 

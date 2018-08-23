@@ -12,9 +12,9 @@
   <div class="container-fluid">
 
       <!-- HEADER -->
-      <div class="header">
+      <header>
         <?php include ("header.php"); ?>
-      </div>
+      </header>
 
 
 
@@ -27,9 +27,9 @@
       </div>
 
       <!-- FOOTER -->
-      <div class="footer">
+      <footer>
         <?php include ("footer.php"); ?>
-      </div>
+      </footer>
 
   </div>
 

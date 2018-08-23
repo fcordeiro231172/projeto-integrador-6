@@ -36,9 +36,9 @@
 
     <div class="final col-lg-2 col-md-12 col-sm-12 col-xs-12">
           <ul>
-            <li><a href="https://www.facebook.com"><img src="imagens/icone_fb.png" alt="fb" style="width:30px"></a></li>
-            <li><a href="https://www.instagram.com"><img src="imagens/icone_ins.jpg" alt="ins" style="width:30px"></a></li>
-            <li><a href="https://www.twitter.com"><img src="imagens/icone_tw.png" alt="fb" style="width:30px"></a></li>
+            <li><a href="https://www.facebook.com"><img src="imagens/facebook.png" alt="fb" style="width:30px"></a></li>
+            <li><a href="https://www.instagram.com"><img src="imagens/instagram.png" alt="ins" style="width:30px"></a></li>
+            <li><a href="https://www.twitter.com"><img src="imagens/twitter.png" alt="fb" style="width:30px"></a></li>
           </ul>
         <div class="seguranca">
           <p>Loja 100% segura</p>

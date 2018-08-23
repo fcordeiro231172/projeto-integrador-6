@@ -16,10 +16,20 @@
           include ("header.php");
        ?>
     </header>
+
+<div class="total">
+
+    <div class= "col-lg-12">
+
+    <div class=" col-lg-12">
       <h2>Formulário de Login</h2>
-      <row>
-        <img  class="col-lg-3" src="imagens/giselemaq1.jpg" alt="Gisele  bündchen" title="Gisele Bündchen">
-        <form action="/action_page.php" class="col-lg-6" class="col-xs-12">
+    </div>
+
+      <div class= "col-lg-3">
+        <img class= src="imagens/giselemaq1.jpg" alt="Gisele Bündchen" title="Gisele Bündchen">
+      </div>
+
+      <form action="/action_page.php" class= "col-lg-6">
           <div class="form-group">
               <label for="email">Email</label>
               <input type="email" class="form-control" id="email" placeholder="Digite seu email" name="email">
@@ -34,19 +44,19 @@
             </label>
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </row>
-      <row>
-          <div class="col-lg-12">
-                <a href="#" class="fb btn">
-                  <i class="fa fa-facebook fa-fw"></i> Login with Facebook
-               </a>
-                <a href="#" class="google btn"><i class="fa fa-google fa-fw">
-                  </i> Login with Google+
-                </a>
-              </div>
+      </form>
+    </div>
 
-</row>
+    <div class="col-lg-4">
+       <a href="#" class="fb btn">
+         <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+          </a>
+       <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+         </i> Login with Google+
+           </a>
+    </div>
+</div>
+
     <footer>
       <?php
           include ("footer.php");

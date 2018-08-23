@@ -172,6 +172,20 @@ margin: 0;
 }
 
 
+/* LOGIN */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+.total{
+  margin-top: 120px;
+}
+
+
 
 /* RESPONSIVO 1 DO FOOTER */
 @media (max-width: 1200px) {
@@ -237,15 +251,4 @@ nav.navbar .navbar-nav{
   font-size: 0.8em;
   list-style-type: none;
 }
-}
-.fb {
-  background-color: #3B5998;
-  color: white;
-}
-.google {
-  background-color: #dd4b39;
-  color: white;
-}
-h2{
-  margin-top: 120px;
 }
