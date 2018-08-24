@@ -17,44 +17,41 @@
        ?>
     </header>
 
-<div class="total">
+<div class="total col-lg-12">
 
-    <div class= "col-lg-12">
+        <div class="titulo col-lg-12">
+          <h2>Formulário de Login</h2>
+        </div>
 
-    <div class=" col-lg-12">
-      <h2>Formulário de Login</h2>
-    </div>
+        <div class= "foto col-lg-3">
+          <img src="imagens/giselemaq1.jpg" alt="Gisele Bündchen" title="Gisele Bündchen">
+        </div>
 
-      <div class= "col-lg-3">
-        <img class= src="imagens/giselemaq1.jpg" alt="Gisele Bündchen" title="Gisele Bündchen">
-      </div>
+        <form action="/action_page.php" class= "col-lg-4">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Digite seu email" name="email">
+            </div>
+            <div class="form-group" >
+                <label for="pwd">Senha</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Digite sua senha" name="pswd">
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember"> Lembrar
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
 
-      <form action="/action_page.php" class= "col-lg-6">
-          <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="Digite seu email" name="email">
-          </div>
-          <div class="form-group" >
-              <label for="pwd">Senha</label>
-              <input type="password" class="form-control" id="pwd" placeholder="Digite sua senha" name="pswd">
-          </div>
-          <div class="form-group form-check">
-              <label class="form-check-label">
-              <input class="form-check-input" type="checkbox" name="remember"> Lembrar
-            </label>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-    </div>
-
-    <div class="col-lg-4">
-       <a href="#" class="fb btn">
-         <i class="fa fa-facebook fa-fw"></i> Login with Facebook
-          </a>
-       <a href="#" class="google btn"><i class="fa fa-google fa-fw">
-         </i> Login with Google+
-           </a>
-    </div>
+        <div class="botredes col-lg-6">
+           <a href="#" class="fb btn">
+             <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+              </a>
+           <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+             </i> Login with Google+
+               </a>
+        </div>
 </div>
 
     <footer>
