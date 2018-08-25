@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Integrador-6</title>
+  <title>Login - Integrador-6</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
@@ -28,7 +28,7 @@
         </div>
 
         <div class="formulario col-lg-4 col-md-4 col-sm-6">
-            <form action="/action_page.php">
+            <form action="/action_page.php" method="post">
                 <div class="form-group">
                     <label for="email">Email</label>
                     <input type="email" class="form-control" id="email" placeholder="Digite seu email" name="email">
@@ -42,18 +42,20 @@
                     <input class="form-check-input" type="checkbox" name="remember"> Lembrar
                   </label>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
+            <br>
+            <a href="/confirmacaodesenha" target="_blank"><p>Esqueci minha senha</p>
       </div>
       <div class="branco col-lg-5 col-md-4 col-sm-0">
       </div>
 
       <div class="botredes col-xs-6">
            <a href="#" class="fb btn">
-             <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+             <i class="fa fa-facebook fa-fw"></i> Login com Facebook
               </a>
            <a href="#" class="google btn"><i class="fa fa-google fa-fw">
-             </i> Login with Google+
+           </i> Login com Google+
                </a>
         </div>
 </div>
