@@ -62,12 +62,12 @@
               <input type="text" name="cep" class="form-control" id="cep">
           </div>
           <div class="form-check-inline">
-            <p><b>Sexo</p>
+            <label><b>Sexo</label>
             <label class="checkbox-inline"><input type="radio" name="sexo" value="1">Masculino</label>
             <label class="checkbox-inline"><input type="radio" name="sexo" value="2">Feminino</label>
           </div>
           <div class="form-check-inline">
-            <p><b>Áreas de Interesse</p>
+            <label><b>Áreas de Interesse</label>
             <label class="checkbox-inline"><input type="checkbox" value="1">Maquiagem</label>
             <label class="checkbox-inline"><input type="checkbox" value="2">Perfumaria</label>
             <label class="checkbox-inline"><input type="checkbox" value="3">Cosméticos</label>
