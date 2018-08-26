@@ -1,0 +1,20 @@
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+    width: 101%;
+}
+.carousel-inner{
+    width: 101%;
+}
+ #img-banner {
+    background-image: url(imagens/3.jpg);
+    background-size: 100% 110vh;
+    background-repeat: no-repeat;
+} 
+
+ .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    height: 88vh;
+    width: 100%; 
+}
+
+
+
