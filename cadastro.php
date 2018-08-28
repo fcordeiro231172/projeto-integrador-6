@@ -16,17 +16,27 @@
           include ("header.php");
        ?>
     </header>
+
     <div class="total col-lg-12">
         <h2>Formulário de Cadastro</h2>
+
+
         <form class="form-inline" action="/action_page.php" method="post">
+
+
+            <div class="form-group">
+                <label for="email" class="mr-sm-2">Email:</label>
+                <input type="email" name="email" class="form-control mr-sm-2" id="email" placeholder="Digite seu email" name="email">
+            </div>
+
+
+
           <div class="form-group">
-              <label for="email" class="mr-sm-2">Email</label>
-              <input type="email" name="email" class="form-control mr-sm-2" id="email" placeholder="Digite seu email" name="email">
-          </div>
-          <div class="form-group">
-              <label for="pwd"  class="mr-sm-2">Senha</label>
+              <label for="pwd"  class="mr-sm-2">Senha:</label>
               <input type="password" name="pwd" class="form-control mr-sm-2" id="pwd" placeholder="Digite sua senha" name="pswd">
           </div>
+
+
           <br>
           <div class="form-group">
               <label for="nome">Nome:</label>
@@ -76,6 +86,8 @@
           <button type="submit" class="btn btn-primary mr-sm-4">Enviar</button>
         </form>
     </div>
+
+
     <footer>
       <?php
         include ("footer.php");

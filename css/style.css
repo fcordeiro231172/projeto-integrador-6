@@ -15,7 +15,6 @@ body>.container-fluid{
 }
 
 
-
 /* MENU PRODUTOS */
 .navbar-nav>li {
     float: right;
@@ -27,6 +26,11 @@ body>.container-fluid{
   display: inline-block;
 }
 
+
+/* HOME PRINCIPAL */
+.slide{
+  margin-top: 110px;
+}
 
 /* LOGIN E CARRINHO */
 .compras{
@@ -96,10 +100,20 @@ color: gray;
     outline: 0;
 }
 
+/* FAQ */
+.faq_geral{
+  margin: 150px 0 0 20px;
+}
+
+
+/* CADASTRO */
+
+
+
 
 /* FOOTER */
 .rodape{
-  margin-top: 200px;
+  margin-top: 20px;
   padding: 0;
   padding-bottom: 10px;
   width: 100%;
