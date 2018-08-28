@@ -15,7 +15,6 @@ body>.container-fluid{
 }
 
 
-
 /* MENU PRODUTOS */
 .navbar-nav>li {
     float: right;
@@ -105,6 +104,10 @@ color: gray;
 .faq_geral{
   margin: 150px 0 0 20px;
 }
+
+
+/* CADASTRO */
+
 
 
 
