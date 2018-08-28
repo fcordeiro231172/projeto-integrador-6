@@ -1,4 +1,8 @@
 
+
+<!--VITRINE-->
+<div class="container">
+
 <!--filtro de busca-->
 <div id="filtro-de-busca">
     <div class="personalize">Personalize sua busca:</div>
@@ -52,77 +56,15 @@
     </ul>
 </nav>
 
-<!--VITRINE-->
-<div class="row">
-    <div class="col-sm-4 col-lg-4 col-md-4">
-        <div class="thumbnail">
-        <img class="image-reponsive" src="includes/vitrine/imagens/1.jpg") alt="">
-            <div class="caption">
-                <h4 class="pull-right">R$ 50,00</h4>
-                <h4><a href="#">Produto</a></h4>
-            </div>
+<!--vitrine -->
 
-            <div class="ratings">
-                <p class="pull-right">15 comentários</p>
-                <p>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                </p>
-            </div>
+<div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="produto">
+        <div class="thumbnail" style="background-image:url(includes/vitrine/imagens/1.jpg)">
         </div>
-    </div>
-
-    <div class="col-sm-4 col-lg-4 col-md-4">
-        <div class="thumbnail">
-            <img class="imagem-vitrine" src="includes/vitrine/imagens/1.jpg"  alt="">
-            <div class="caption">
-                <h4 class="pull-right">R$ 50,00</h4>
-                <h4><a href="#">Produto</a></h4>
-            </div>
-            
-            <div class="ratings">
-                <p class="pull-right">15 comentários</p>
-                <p>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-sm-4 col-lg-4 col-md-4">
-        <div class="thumbnail">
-            <img class="imagem-vitrine" src="includes/vitrine/imagens/1.jpg"  alt="">
-            <div class="caption">
-                <h4 class="pull-right">R$ 50,00</h4>
-                <h4><a href="#">Produto</a></h4>
-            </div>
-
-            <div class="ratings">
-                <p class="pull-right">15 comentários</p>
-                <p>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-sm-4 col-lg-4 col-md-4">
-    <div class="thumbnail">
-        <img class="imagem-vitrine" src="includes/vitrine/imagens/1.jpg"  alt="">
         <div class="caption">
-            <h4 class="pull-right">R$ 50,00</h4>
-            <h4><a href="#">Produto</a> </h4>
+                <h4 class="pull-right">R$ 50,00</h4>
+                <h4><a href="#">Produto</a></h4>
         </div>
 
         <div class="ratings">
@@ -136,112 +78,119 @@
             </p>
         </div>
     </div>
-    </div>
+</div>
 
-    <div class="col-sm-4 col-lg-4 col-md-4">
-        <div class="thumbnail">
-            <img class="imagem-vitrine" src="includes/vitrine/imagens/1.jpg"  alt="">
-            <div class="caption">
-                <h4 class="pull-right">R$ 50,00</h4>
-                <h4><a href="#">Produto</a></h4>
-            </div>
-
-            <div class="ratings">
-                <p class="pull-right">15 comentários</p>
-                <p>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                </p>
-            </div>
+<div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="produto">
+        <div class="thumbnail" style="background-image:url(includes/vitrine/imagens/1.jpg)">
         </div>
-    </div>
-
-    <div class="col-sm-4 col-lg-4 col-md-4">
-        <div class="thumbnail">
-            <img class="imagem-vitrine" src="includes/vitrine/imagens/1.jpg"  alt="">
-            <div class="caption">
+        <div class="caption">
                 <h4 class="pull-right">R$ 50,00</h4>
                 <h4><a href="#">Produto</a></h4>
-            </div>
-
-            <div class="ratings">
-                <p class="pull-right">15 comentários</p>
-                <p>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                </p>
-            </div>
         </div>
-    </div>
-    <div class="col-sm-4 col-lg-4 col-md-4">
-        <div class="thumbnail">
-            <img class="imagem-vitrine" src="includes/vitrine/imagens/1.jpg"  alt="">
-            <div class="caption">
-                <h4 class="pull-right">R$ 50,00</h4>
-                <h4><a href="#">Produto</a></h4>
-            </div>
 
-            <div class="ratings">
-                <p class="pull-right">15 comentários</p>
-                <p>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-sm-4 col-lg-4 col-md-4">
-        <div class="thumbnail">
-            <img class="imagem-vitrine" src="includes/vitrine/imagens/1.jpg" alt="">
-            <div class="caption">
-                <h4 class="pull-right">R$ 50,00</h4>
-                <h4><a href="#">Produto</a></h4>
-            </div>
-            
-            <div class="ratings">
-                <p class="pull-right">15 comentários</p>
-                <p>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-sm-4 col-lg-4 col-md-4">
-        <div class="thumbnail">
-            <img class="imagem-vitrine" src="includes/vitrine/imagens/1.jpg"  alt="">
-            <div class="caption">
-                <h4 class="pull-right">R$ 50,00</h4>
-                <h4><a href="#">Produto</a></h4>
-            </div>
-
-            <div class="ratings">
-                <p class="pull-right">15 comentários</p>
-                <p>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span>
-                </p>
-            </div>
+        <div class="ratings">
+            <p class="pull-right">15 comentários</p>
+            <p>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star-empty"></span>
+            </p>
         </div>
     </div>
 </div>
+
+<div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="produto">
+        <div class="thumbnail" style="background-image:url(includes/vitrine/imagens/1.jpg)">
+        </div>
+        <div class="caption">
+                <h4 class="pull-right">R$ 50,00</h4>
+                <h4><a href="#">Produto</a></h4>
+        </div>
+
+        <div class="ratings">
+            <p class="pull-right">15 comentários</p>
+            <p>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star-empty"></span>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="produto">
+        <div class="thumbnail" style="background-image:url(includes/vitrine/imagens/1.jpg)">
+        </div>
+        <div class="caption">
+                <h4 class="pull-right">R$ 50,00</h4>
+                <h4><a href="#">Produto</a></h4>
+        </div>
+
+        <div class="ratings">
+            <p class="pull-right">15 comentários</p>
+            <p>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star-empty"></span>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="produto">
+        <div class="thumbnail" style="background-image:url(includes/vitrine/imagens/1.jpg)">
+        </div>
+        <div class="caption">
+                <h4 class="pull-right">R$ 50,00</h4>
+                <h4><a href="#">Produto</a></h4>
+        </div>
+
+        <div class="ratings">
+            <p class="pull-right">15 comentários</p>
+            <p>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star-empty"></span>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="produto">
+        <div class="thumbnail" style="background-image:url(includes/vitrine/imagens/1.jpg)">
+        </div>
+        <div class="caption">
+                <h4 class="pull-right">R$ 50,00</h4>
+                <h4><a href="#">Produto</a></h4>
+        </div>
+
+        <div class="ratings">
+            <p class="pull-right">15 comentários</p>
+            <p>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star-empty"></span>
+            </p>
+        </div>
+    </div>
+</div>
+
+
 
 <!-- numeração das páginas parte inferior do body -->
 <nav id="numeracao-paginas" aria-label="...">

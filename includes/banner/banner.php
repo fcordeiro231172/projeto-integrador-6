@@ -9,18 +9,15 @@
               
     <!-- SLIDES -->
     <div class="carousel-inner" role="listbox">
-        <div class="item active">
-           <div> <img id="img-banner" class="img-responsive"  alt="foto 1"></div>
+        <div class="item active" style="background-image: url(/includes/banner/imagens/3.jpg);">
             <div class="carousel-caption"></div>
         </div>
 
-        <div class="item">
-           <img id="img-banner" class="img-responsive" alt="foto 1">
+        <div class="item" style="background-image: url(/includes/banner/imagens/3.jpg);">
             <div class="carousel-caption"></div>
         </div>
 
-        <div class="item">
-            <img id="img-banner" class="img-responsive" alt="foto 1">
+        <div class="item" style="background-image: url(/includes/banner/imagens/3.jpg);">
             <div class="carousel-caption"></div>
         </div>
               
