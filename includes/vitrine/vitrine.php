@@ -6,7 +6,8 @@
 <!--filtro de busca-->
 <div id="filtro-de-busca">
     <div class="personalize">Personalize sua busca:</div>
-    <div class="checkbox-animated-inline">
+<form action="">
+<div class="checkbox-animated-inline">
         <input id="checkbox_animated_4" type="checkbox">
         <label for="checkbox_animated_4">
             <span class="check"></span>
@@ -32,6 +33,7 @@
             Marcas
         </label>
     </div>
+</form>
 </div>
 
 <!-- numeração das páginas -->
