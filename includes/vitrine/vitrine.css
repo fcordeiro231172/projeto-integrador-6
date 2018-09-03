@@ -1,10 +1,5 @@
 
 /*produtos da vitrine */
-div#vitrine-produtos{
-    background-image: url("../imagens/background.jpg");
-}
-
-
 .thumbnail {
     width: 100%;
     height: 200px;
