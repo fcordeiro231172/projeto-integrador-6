@@ -8,11 +8,11 @@
     background-repeat: no-repeat;
     border: none;
 }
- .produto{
-border: 1px solid #ccc;
-padding: 10px;
-margin-bottom: 26px;
- }
+.produto{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 26px;
+}
 
 /* DIV FILTRO DE BUSCA*/
 div#filtro-de-busca{
