@@ -17,75 +17,98 @@
        ?>
     </header>
 
-    <div class="total col-lg-12">
-        <h2>Formulário de Cadastro</h2>
+    <div class="total col-lg-12 ">
 
+        <div class = "col-xs-12" style="margin-bottom: 20px; margin-top: 30px;">
+        <h2>Formulário de Cadastro</h2>
+        </div>
 
         <form class="form-inline" action="/action_page.php" method="post">
 
+          <div class = "col-xs-12" style="margin-bottom: 20px">
+                <div class="form-group col-lg-4 col-md-5 col-sm-6">
+                    <label for="email" class="mr-sm-5">Email:</label><br>
+                    <input type="email" name="email" class="form-control mr-sm-1" id="email" style="width: 100%" placeholder="Digite seu email" name="email">
+                </div>
+                <div class="form-group col-lg-2 col-md-3 col-sm-4">
+                    <label for="pwd"  class="mr-sm-2">Senha:</label><br>
+                    <input type="password" name="pwd" class="form-control mr-sm-2" id="pwd" style="width: 100%" placeholder="Digite sua senha" name="pswd">
+                </div>
+        </div>
 
-            <div class="form-group">
-                <label for="email" class="mr-sm-2">Email:</label>
-                <input type="email" name="email" class="form-control mr-sm-2" id="email" placeholder="Digite seu email" name="email">
-            </div>
+        <div class = "col-xs-12" style="margin-bottom: 20px">
+              <div class="form-group col-lg-4 col-md-4 col-sm-4">
+                  <label for="nome" class="mr-sm-2">Nome:</label><br>
+                  <input type="text" name="nome" class="form-control" style="width: 100%" id="nome">
+              </div>
+              <div class="form-group col-lg-4 col-md-4 col-sm-4">
+                  <label for="sobrenome" class="mr-sm-2">Sobrenome:</label><br>
+                  <input type="text"  name="sobrenome" class="form-control" style="width: 100%" id="sobrenome">
+              </div>
+              <div class="form-group col-lg-3 col-md-3 col-sm-3">
+                  <label for="cpf">CPF:</label><br>
+                  <input type="text" name="cpf"  class="form-control" style="width: 100%" id="cpf">
+              </div>
+        </div>
 
+        <div class = "col-xs-12" style="margin-bottom: 20px">
+              <div class="form-group col-lg-3">
+                  <label for="celular">Telefone:</label><br>
+                  <input type="text" name="celular" class="form-control" style="width: 100%" id="celular">
+              </div>
+              <div class="form-group col-lg-3">
+                  <label for="celular">Celular:</label><br>
+                  <input type="text" name="celular" class="form-control"  style="width: 100%" id="celular">
+              </div>
+        </div>
 
+        <div class = "col-xs-12" style="margin-bottom: 20px">
+              <div class="form-group col-lg-5 col-md-6 col-sm-7">
+                  <label for="endereco col-lg-3">Endereço:</label><br>
+                  <input type="text" name="ender" class="form-control" style="width: 100%" id="endereco">
+              </div>
+              <div class="form-group col-lg-3 col-md-4 col-sm-5">
+                  <label for="endereço col-lg-3">Complemento:</label><br>
+                  <input type="text" name="ender" class="form-control" style="width: 100%" id="endereco">
+              </div>
+        </div>
 
-          <div class="form-group">
-              <label for="pwd"  class="mr-sm-2">Senha:</label>
-              <input type="password" name="pwd" class="form-control mr-sm-2" id="pwd" placeholder="Digite sua senha" name="pswd">
-          </div>
+        <div class = "col-xs-12" style="margin-bottom: 20px">
+              <div class="form-group col-lg-4 col-md-4 col-sm-4">
+                  <label for="cidade">Cidade:</label><br>
+                  <input type="text" name="cidade" class="form-control" style="width: 100%" id="cidade">
+              </div>
+              <div class="form-group col-lg-1 col-md-1 col-sm-2">
+                  <label for="uf">Estado:</label><br>
+                  <input type="text" name="uf" class="form-control" style="width: 100%" id="uf">
+              </div>
+              <div class="form-group col-lg-2 col-md-2 col-sm-3">
+                  <label for="cep">CEP:</label><br>
+                  <input type="text" name="cep" class="form-control" style="width: 100%" id="cep">
+              </div>
+        </div>
 
+        <div class = "col-xs-12" style="margin-bottom: 20px">
+              <div class="form-check-inline col-lg-4 col-md-4 col-sm-6 col-xs-12" style="margin-bottom: 20px;">
+                <label><b>Sexo</label><br>
+                <label class="checkbox-inline"><input type="radio" name="sexo" value="1">Masculino</label>
+                <label class="checkbox-inline"><input type="radio" name="sexo" value="2">Feminino</label>
+              </div>
+              <div class="form-check-inline col-lg-4 col-md-5 col-sm-6 col-xs-12" style="margin-bottom: 20px;">
+                <label><b>Áreas de Interesse</label><br>
+                <label class="checkbox-inline"><input type="checkbox" value="1">Maquiagem</label>
+                <label class="checkbox-inline"><input type="checkbox" value="2">Perfumaria</label>
+                <label class="checkbox-inline"><input type="checkbox" value="3">Cosméticos</label>
+              </div>
+        </div>
 
-          <br>
-          <div class="form-group">
-              <label for="nome">Nome:</label>
-              <input type="text" name="nome" class="form-control" id="nome">
-          </div>
-          <div class="form-group">
-              <label for="sobrenome">Sobrenome:</label>
-              <input type="text"  name="sobrenome" class="form-control" id="sobrenome">
-          </div>
-          <br>
-          <div class="form-group">
-              <label for="celular">celular:</label>
-              <input type="text" name="celular" class="form-control" id="celular">
-          </div>
-          <div class="form-group">
-              <label for="cpf">CPF:</label>
-              <input type="text" name="cpf"  class="form-control" id="cpf">
-          </div>
-          <div class="form-group">
-              <label for="endereco">Endereço:</label>
-              <input type="text" name="ender" class="form-control" id="endereco">
-          </div>
-          <div class="form-group">
-              <label for="cidade">Cidade:</label>
-              <input type="text" name="cidade" class="form-control" id="cidade">
-          </div>
-          <div class="form-group">
-              <label for="uf">Estado:</label>
-              <input type="text" name="uf" class="form-control" id="uf">
-          </div>
-          <div class="form-group">
-              <label for="cep">CEP:</label>
-              <input type="text" name="cep" class="form-control" id="cep">
-          </div>
-          <div class="form-check-inline">
-            <label><b>Sexo</label>
-            <label class="checkbox-inline"><input type="radio" name="sexo" value="1">Masculino</label>
-            <label class="checkbox-inline"><input type="radio" name="sexo" value="2">Feminino</label>
-          </div>
-          <div class="form-check-inline">
-            <label><b>Áreas de Interesse</label>
-            <label class="checkbox-inline"><input type="checkbox" value="1">Maquiagem</label>
-            <label class="checkbox-inline"><input type="checkbox" value="2">Perfumaria</label>
-            <label class="checkbox-inline"><input type="checkbox" value="3">Cosméticos</label>
-          </div>
-          <br>
-          <button type="submit" class="btn btn-primary mr-sm-4">Enviar</button>
-        </form>
-    </div>
+        <div class = "col-xs-12" style="margin-bottom: 20px">
+              <button type="submit" class="btn btn-primary  col-lg-1 col-md-1 col-sm-2 col-xs-3" >Enviar</button><br>
+        </div>
+
+    </form>
+
+  </div>
 
 
     <footer>
