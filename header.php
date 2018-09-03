@@ -73,8 +73,16 @@
 
               <!-- lOGIN e CART -->
               <div class="col-md-3 pull-right text-right">
+
+                <div class="bt_login">
+                  <button type="button"><a href="login.php">Login</a></button>
+                </div>
+                <div class="bt_cadastro">
+                  <button type="button"><a href="cadastro.php">Cadastro</a></button>
+                </div>
+
                 <div class="compras">
-                  <p>Olá, <a href="#" class="navbar-link">Flávio Cordeiro</a></p>
+                  <!-- <p>Olá, <a href="#" class="navbar-link">Flávio Cordeiro</a></p> -->
                 <a class="carrinho" href="carrinho.html">
                     <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
                 </a>

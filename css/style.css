@@ -33,11 +33,48 @@ body>.container-fluid{
 }
 
 /* LOGIN E CARRINHO */
+
+.bt_login{
+  width: 20%;
+  /* margin-top: 35px; */
+  margin: 35px 10px 10px 10px;
+  position: relative;
+  text-align: right;
+  float: left;
+}
+
+.bt_login button{
+  border-bottom: none;
+  border-style: none;
+ }
+
+ .bt_login a{
+  color: #009cab;
+ }
+
+.bt_cadastro {
+  width: 20%;
+  /* margin-top: 35px; */
+  margin: 35px 10px 10px 10px;
+  position: relative;
+  text-align: right;
+  float: left;
+}
+.bt_cadastro button{
+border-bottom: none;
+border-style: none;
+}
+.bt_cadastro a{
+color: #009cab;
+}
+
 .compras{
+ width: 20%;
+ float: right;
  font-size: 1.2rem;
  position: relative;
- margin-top: 15px;
- margin-right: 20px;
+ margin-top: 30px;
+ margin-right: 30px;
  text-align: right;
 }
 .compras .glyphicon {
