@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#" style="padding-top:10px;">
+              <a class="navbar-brand" href="index.php" style="padding-top:10px;">
                 <img src="imagens/logo_sense_2.png" alt="logo" width=120px
                 >
               </a>
@@ -73,8 +73,16 @@
 
               <!-- lOGIN e CART -->
               <div class="col-md-3 pull-right text-right">
+
+                <div class="bt_login">
+                  <button type="button"><a href="login.php">Login</a></button>
+                </div>
+                <div class="bt_cadastro">
+                  <button type="button"><a href="cadastro.php">Cadastro</a></button>
+                </div>
+
                 <div class="compras">
-                  <p>Olá, <a href="#" class="navbar-link">Flávio Cordeiro</a></p>
+                  <!-- <p>Olá, <a href="#" class="navbar-link">Flávio Cordeiro</a></p> -->
                 <a class="carrinho" href="carrinho.html">
                     <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
                 </a>
