@@ -63,32 +63,6 @@
         </div>
 
         <div class = "col-xs-12" style="margin-bottom: 20px">
-              <div class="form-group col-lg-5 col-md-6 col-sm-7">
-                  <label for="endereco col-lg-3">Endereço:</label><br>
-                  <input type="text" name="ender" class="form-control" style="width: 100%" id="endereco">
-              </div>
-              <div class="form-group col-lg-3 col-md-4 col-sm-5">
-                  <label for="endereço col-lg-3">Complemento:</label><br>
-                  <input type="text" name="ender" class="form-control" style="width: 100%" id="endereco">
-              </div>
-        </div>
-
-        <div class = "col-xs-12" style="margin-bottom: 20px">
-              <div class="form-group col-lg-4 col-md-4 col-sm-4">
-                  <label for="cidade">Cidade:</label><br>
-                  <input type="text" name="cidade" class="form-control" style="width: 100%" id="cidade">
-              </div>
-              <div class="form-group col-lg-1 col-md-1 col-sm-2">
-                  <label for="uf">Estado:</label><br>
-                  <input type="text" name="uf" class="form-control" style="width: 100%" id="uf">
-              </div>
-              <div class="form-group col-lg-2 col-md-2 col-sm-3">
-                  <label for="cep">CEP:</label><br>
-                  <input type="text" name="cep" class="form-control" style="width: 100%" id="cep">
-              </div>
-        </div>
-
-        <div class = "col-xs-12" style="margin-bottom: 20px">
               <div class="form-check-inline col-lg-4 col-md-4 col-sm-6 col-xs-12" style="margin-bottom: 20px;">
                 <label><b>Sexo</label><br>
                 <label class="checkbox-inline"><input type="radio" name="sexo" value="1">Masculino</label>
