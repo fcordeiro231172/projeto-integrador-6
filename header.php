@@ -75,10 +75,10 @@
               <div class="col-md-3 pull-right text-right">
 
                 <div class="bt_login">
-                  <button type="button"><a href="login.php">Login</a></button>
+                  <a href="login.php">Login</a>
                 </div>
                 <div class="bt_cadastro">
-                  <button type="button"><a href="cadastro.php">Cadastro</a></button>
+                  <a href="cadastro.php">Cadastro</a>
                 </div>
 
                 <div class="compras">

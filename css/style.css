@@ -46,6 +46,7 @@ body>.container-fluid{
 .bt_login button{
   border-bottom: none;
   border-style: none;
+  background-color: transparent;
  }
 
  .bt_login a{
