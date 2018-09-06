@@ -183,11 +183,6 @@ span {
 }
 
 
-/* CADASTRO */
-
-
-
-
 /* FOOTER */
 .rodape{
   margin-top: 20px;
@@ -280,6 +275,10 @@ margin: 0;
 .total{
   margin-top: 120px;
 }
+.total .foto{
+  padding-left: 15px;
+}
+
 
 .botredes{
 margin-top: 20px;
