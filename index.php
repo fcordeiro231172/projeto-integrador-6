@@ -4,7 +4,7 @@
   <title>Integrador-6</title>
   <link rel="stylesheet" href="includes/banner/banner.css"> <!-- CSS BANNER -->
   <link rel="stylesheet" href="includes/vitrine/vitrine.css">  <!-- CSS VITRINE -->
-  <link rel="stylesheet" href="css/home-responsive.css">  <!-- HOME-RESPONSIVA -->
+  
 
   <?php include ("header.php"); ?>
 
