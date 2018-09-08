@@ -14,7 +14,7 @@
         <h2>Formulário de Cadastro</h2>
         </div>
 
-        <form class="form-inline" action="/action_page.php" method="post">
+        <form class="form-inline" action="dados-formulario.php" method="post" enctype="multipart/form-data">
 
           <div class = "col-xs-12" style="margin-bottom: 20px">
                 <div class="form-group col-lg-4 col-md-5 col-sm-6">
@@ -67,11 +67,23 @@
               </div>
         </div>
 
+        <!-- UPLOAD FOTO DE PERFIL-->
+        <h5><strong>Selecione sua foto de perfil:</strong></h5>
+        <br>
+            <input type="file" name="arquivo" id="fileToUpload">
+        <br>
+        <br>
+              
+        <!-- botão enviar -->
         <div class = "col-xs-12" style="margin-bottom: 20px">
-              <button type="submit" class="btn btn-primary  col-lg-1 col-md-1 col-sm-2 col-xs-3" >Enviar</button><br>
+              <button type="submit" value="salvar" class="btn btn-primary  col-lg-1 col-md-1 col-sm-2 col-xs-3" >Enviar</button><br>
         </div>
 
     </form>
+
+
+
+    
 
   </div>
 
