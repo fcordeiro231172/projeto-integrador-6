@@ -14,7 +14,7 @@
         <h2>Formulário de Cadastro</h2>
         </div>
 
-        <form class="form-inline" action="dados-formulario.php" method="post" enctype="multipart/form-data">
+        <form class="form-inline" action="<?php echo $_SERVER['PHP_SELF'];?>" method="post" enctype="multipart/form-data">
 
           <div class = "col-xs-12" style="margin-bottom: 20px">
                 <div class="form-group col-lg-4 col-md-5 col-sm-6">
@@ -67,10 +67,18 @@
               </div>
         </div>
 
-        <!-- UPLOAD FOTO DE PERFIL-->
+        <!-- UPLOAD FOTO DE PERFIL, comandos-->
         <h5><strong>Selecione sua foto de perfil:</strong></h5>
         <br>
             <input type="file" name="arquivo" id="fileToUpload">
+          
+            <?php
+                $destino = 'uploads/' . $_FILES['arquivo']['name'];
+                
+                $arquivo_tmp = $_FILES['arquivo']['tmp_name'];
+                
+                move_uploaded_file($arquivo_tmp, $destino);
+            ?>
         <br>
         <br>
               
