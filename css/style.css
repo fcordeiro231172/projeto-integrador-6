@@ -84,7 +84,19 @@ color: #009cab;
   margin: 20px;
   display: inline-block;
 }
+.logado {
+  width: 70%;
+  float: left;
+  margin-top: 25px;
+}
 
+.logado p{
+  margin: 0;
+}
+
+.logado #sair {
+  font-size: 0.9em;
+}
 
 /* BUSCA */
 .navbar-form{
@@ -277,7 +289,9 @@ margin: 0;
 .total .foto{
   padding-left: 15px;
 }
-
+.total_cad{
+  margin-top: 100px;
+}
 
 .botredes{
 margin-top: 20px;

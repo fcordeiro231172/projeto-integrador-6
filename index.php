@@ -1,10 +1,12 @@
+<?php session_start() ?>
+
 <!DOCTYPE html>
 <html>
 <head>
   <title>Integrador-6</title>
   <link rel="stylesheet" href="includes/banner/banner.css"> <!-- CSS BANNER -->
   <link rel="stylesheet" href="includes/vitrine/vitrine.css">  <!-- CSS VITRINE -->
-  
+
 
   <?php include ("header.php"); ?>
 

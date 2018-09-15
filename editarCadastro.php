@@ -3,62 +3,17 @@ session_start();
 $_SESSION['email'] = $_POST['email'];
 $_SESSION['nome'] = $_POST['nome'];
 
-if ($_POST) {
+$local_file = "dados.json";
+$conteudo = file_get_contents ($local_file);
+$conteudo_array = json_decode ($conteudo, true);
+$dadosUsuario = [];
 
-    // CRIAR ARQUIVO COM OS DADOS DOS USUÁRIOS SALVOS NO FORMULÁRIO
-      $local_file = "dados.json";
-      if (file_exists($local_file)){
-        $conteudo = file_get_contents ("$local_file");
-        $conteudo_array = json_decode ($conteudo, true);
-      } else {
-        $conteudo_array = [
-          "usuarios" => []
-          ];
-        }
-        // VALIDAR SE O USUÁRIO JÁ EXISTE, UTILIZANDO O CAMPO E-MAIL
-        $msg_error = [];
-        $validacao = $conteudo_array['usuarios'];
-        if ($validacao !== null) {
-          foreach ($validacao as $key => $value) {
-            if ($validacao[$key]['email'] === $_POST['email']) {
-              $msg_error[] = "<b>Já existe cadastro ativo com este e-mail!</b>";
-              break;
-            }
-          }
-        }
-
-    // VALIDAR O PREENCHIMENTO DO FORMULÁRIO
-      foreach ($_POST as $key => $value) {
-        if ($value == ""){
-          $msg_error[] = "Campo '$key' em branco";
-        }
-      }
-
-
-    // VALIDAR "SENHA = CONFIRMAR SENHA" E APAGAR O CAMPO "CONFIRMAR SENHA" DO $_POST
-    $senha = $_POST['senha'];
-    $confimar = $_POST['confirmar'];
-
-    if ($confimar !== $senha) {
-      $msg_error[] = "Confirmação de senha não confere!";
-    } else {
-        $senha_cripto = password_hash($senha, PASSWORD_DEFAULT);
-        $_POST['senha'] = $senha_cripto;
-        unset ($_POST['confirmar']);
-
-        // CARREGAR OS DADOS DO FORMULÁRIO CUMULATIVAMENTE(NA ÚLTIMA POSIÇÃO)
-        // E SALVAR O ARQUIVO ACUMULADO NO ARQUIVO JSON ONDE TEM TODOS OS USUÁRIOS
-        if (empty($msg_error)){
-          $dadosUsuario = $_POST;
-          $dadosUsuario['foto'] = $_FILES['arquivo']['name'];
-          $conteudo_array ["usuarios"][] = $dadosUsuario;
-          $conteudo = json_encode($conteudo_array);
-          file_put_contents($local_file, $conteudo);
-
-          header ('Location: validaCadastro.php');
-        }
-      }
-}
+  foreach ($conteudo_array['usuarios'] as $key => $value) {
+    echo $conteudo_array['usuarios'][$key]['email'];
+    if ($conteudo_array['usuarios'][$key]['email'] === $_SESSION['email']) {
+      $dadosUsuario = $conteudo_array['usuarios'][$key];
+    }
+  }
 ?>
 
 
@@ -69,7 +24,7 @@ if ($_POST) {
 
   <?php include ("header.php"); ?>
 
-    <div class="total col-lg-12">
+    <div class="total_cad col-lg-12 ">
 
       <!-- IMPRESSÃO DA MENSAGEM DE ERRO NO FINAL DA PÁGINA DE CADASTRO -->
             <div class="error">

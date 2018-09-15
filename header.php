@@ -84,22 +84,39 @@
 
 
               <!-- lOGIN e CART -->
+
+
               <div class="col-md-3 pull-right text-right">
+                <?php if(!isset($_SESSION['logado'])){ ?>
+                      <div class="bt_login">
+                        <a href="login.php">Login</a>
+                      </div>
+                      <div class="bt_cadastro">
+                        <a href="cadastro.php">Cadastro</a>
+                      </div>
+                      <div class="compras">
+                        <a class="carrinho" href="carrinho.html">
+                            <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                        </a>
+                      </div>
+                <?php } ?>
 
-                <div class="bt_login">
-                  <a href="login.php">Login</a>
-                </div>
-                <div class="bt_cadastro">
-                  <a href="cadastro.php">Cadastro</a>
-                </div>
+                <?php  if(isset($_SESSION['logado'])){ ?>
 
-                <div class="compras">
-                  <!-- <p>Olá, <a href="#" class="navbar-link">Flávio Cordeiro</a></p> -->
-                <a class="carrinho" href="carrinho.html">
-                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
-                </a>
-                </div>
-              </div>
+                    <div class="logado">
+                      <p>Olá, <a href="meuPerfil.php" class="navbar-link"><b><?php echo $_SESSION['nome']; ?></b></a></p>
+                      <a href="logout.php" id="sair">Sair</a>
+
+                    </div>
+
+                    <div class="compras">
+                      <a class="carrinho" href="carrinho.html">
+                        <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                      </a>
+                    </div>
+                  </div>
+                <?php } ?>
+
             </div><!-- /.navbar-collapse -->
 
 

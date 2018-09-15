@@ -1,11 +1,42 @@
+<?php session_start(); ?>
+<?php
+if($_POST) {
+
+  $local_file = "dados.json";
+  if (file_exists($local_file)){
+    $recuperar = file_get_contents($local_file);
+    $cadastro = json_decode ($recuperar, true);
+  } else {
+    $cadastro = [
+      "usuarios" => []
+      ];
+    }
+  $validacao = $cadastro['usuarios'];
+
+  // VALIDAR EMAIL E SENHA ENTRE $_POST E O BANCO: USANDO "FOREACH"
+  $teste = 'false';
+  foreach ($validacao as $key => $value) {
+    if ($_POST['email'] == $value['email'] && password_verify($_POST['senha'], $value['senha'])) {
+      $teste = 'true';
+      if ($_POST['lembrar'] == true) {
+        setcookie('email', $_POST['email']);
+        setcookie('senha', $_POST['senha']);
+      }
+        $_SESSION['nome']=$value['nome'];
+        $_SESSION['email']=$value['email'];
+        $_SESSION['logado']='true';
+        header ('Location: validaLogin.php');
+
+    }
+  }
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
   <title>Integrador-6</title>
 
-
   <?php include ("header.php"); ?>
-
 
 <div class="total col-lg-12">
 
@@ -18,21 +49,28 @@
         </div>
 
         <div class="formulario col-lg-4 col-md-4 col-sm-6">
-            <form action="/action_page.php" method="post">
+            <form action="login.php" method="post">
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Digite seu email" name="email">
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu email..." name="email" value="<?php echo isset($_COOKIE['email'])?$_COOKIE['email']:"" ?>">
                 </div>
                 <div class="form-group" >
-                    <label for="pwd">Senha</label>
-                    <input type="password" class="form-control" id="pwd" placeholder="Digite sua senha" name="pswd">
+                    <label for="senha">Senha</label>
+                    <input type="password" class="form-control" id="senha" placeholder="Digite sua senha..." name="senha" value="<?php echo isset($_COOKIE['senha'])?$_COOKIE['senha']:"" ?>">
                 </div>
                 <div class="form-group form-check">
-                    <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox" name="remember"> Lembrar
+                    <label for="lembrar" class="form-check-label">
+                    <input id="lembrar" class="form-check-input" type="checkbox" name="lembrar" value="true"> Lembrar
                   </label>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
+<?php
+                    if ($_POST){
+                      if ($teste === 'false'){
+                        echo "<b>ERRO: email e/ou senha não conferem!</b>";
+                      }
+                    }
+?>
             </form>
             <br>
             <a href="/confirmacaodesenha" target="_blank"><p>Esqueci minha senha</p>
@@ -47,7 +85,7 @@
            <a href="#" class="google btn"><i class="fa fa-google fa-fw">
            </i> Login com Google+
                </a>
-        </div>
+      </div>
 </div>
 
 

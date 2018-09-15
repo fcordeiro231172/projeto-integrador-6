@@ -8,16 +8,14 @@
   <?php include ("header.php"); ?>
 
 
-  <div class="" style="margin:200px 0 200px 50px;">
+  <div class="col-xs-12" style="margin:200px 0 200px 50px;">
       <?php
-        echo "Cadastro realizado com sucesso!"."<br>";
-
+        echo "Login realizado com sucesso!"."<br>";
         echo "Bem-vindo(a), ".$_SESSION['nome'];
-      ?>
-      <br>
-      <a href="login.php">Clique aqui</a> para fazer seu login!
-  </div>
+        echo "<br><br>";
 
+      ?>
+  </div>
 
 <!-- FOOTER -->
   <?php include ("footer.php"); ?>
