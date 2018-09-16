@@ -67,7 +67,7 @@ if($_POST) {
 <?php
                     if ($_POST){
                       if ($teste === 'false'){
-                        echo "<b>ERRO: email e/ou senha não conferem!</b>";
+                        echo "<b style='color:red;'>ERRO: email e/ou senha não conferem!</b>";
                       }
                     }
 ?>
