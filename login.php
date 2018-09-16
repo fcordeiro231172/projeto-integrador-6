@@ -13,6 +13,18 @@ if($_POST) {
     }
   $validacao = $cadastro['usuarios'];
 
+  // VALIDAR SE O USUÁRIO Não Existe, UTILIZANDO O CAMPO E-MAIL
+  if ($validacao !== null) {
+    foreach ($validacao as $key => $value) {
+      if ($validacao[$key]['email'] != $_POST['email']) {
+        echo "USUÁRIO NÃO CADASTRADO!";
+        header ('Location: cadastro.php');
+        break;
+      }
+    }
+  }
+
+
   // VALIDAR EMAIL E SENHA ENTRE $_POST E O BANCO: USANDO "FOREACH"
   $teste = 'false';
   foreach ($validacao as $key => $value) {
