@@ -85,7 +85,7 @@ if($_POST) {
 ?>
             </form>
             <br>
-            <a href="/confirmacaodesenha" target="_blank"><p>Esqueci minha senha</p>
+            <a href="/projeto-integrador-6/confirmacaodesenha.php" target="_blank"><p>Esqueci minha senha</p>
       </div>
       <div class="branco col-lg-5 col-md-4 col-sm-0">
       </div>
