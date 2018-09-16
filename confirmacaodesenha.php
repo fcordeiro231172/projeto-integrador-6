@@ -10,7 +10,7 @@
 
   <div class="col-xs-12" style="margin:200px 0 200px 50px;">
       <?php
-        echo "Uma nova senha foi enviada para o email ".$_SESSION['email'];
+        echo "Uma nova senha foi enviada para o email ".$_COOKIE['email'];
         echo "<br><br>";
 
       ?>
