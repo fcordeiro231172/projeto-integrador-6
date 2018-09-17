@@ -21,7 +21,7 @@ if ($_POST) {
         if ($validacao !== null) {
           foreach ($validacao as $key => $value) {
             if ($validacao[$key]['email'] === $_POST['email']) {
-              $msg_error[] = "<b>Já existe cadastro ativo com este e-mail!</b>";
+              $msg_error[] = "<b style='color:red;'>Já existe cadastro ativo com este e-mail!</b>";
               break;
             }
           }
@@ -75,7 +75,7 @@ if ($_POST) {
             <div class="error">
               <?php
                 if (isset($msg_error) && count($msg_error)) {
-                  echo "<b>ATENÇÃO!</b>"."<br>";
+                  echo "<b  style='color:red;'>ATENÇÃO!</b>"."<br>";
                   echo implode ("<br>",$msg_error);
                 }
               ?>
