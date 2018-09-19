@@ -1,3 +1,5 @@
+<?php session_start() ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -294,6 +296,3 @@
     <!-- FOOTER -->
 
     <?php include ("footer.php"); ?>
-
-
-  

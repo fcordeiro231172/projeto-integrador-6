@@ -1,1 +1,3 @@
-{"usuarios":[{"email":"joaovillelafreitas@hotmail.com","senha":"$2y$10$FBlgr2UYp1CEAvZGkjtM3O71tWM7lzOXF9\/tU9m4T\/HHEO1J.pWIm","nome":"Jo\u00e3o Hotmail","sobrenome":"Freitas Hotmail","cpf":"14644554812","telefone":"1150411458","celular":"11996148078","sexo":"masculino","interesse":["maquiagem"],"foto":"rosto.jpg"}]}
+{"usuarios":[
+  {"email":"joaovillelafreitas@hotmail.com","senha":"$2y$10$FBlgr2UYp1CEAvZGkjtM3O71tWM7lzOXF9\/tU9m4T\/HHEO1J.pWIm","nome":"Jo\u00e3o Hotmail","sobrenome":"Freitas Hotmail","cpf":"14644554812","telefone":"1150411458","celular":"11996148078","sexo":"masculino","interesse":["maquiagem"],"foto":"rosto.jpg"},
+  {"email":"flaviocordeiro@globo.com","senha":"$2y$10$aPZe7WHF.u21TrHkv9hAYuDihoVulZpXVjlgBbscLBKaMKp4ruALu","nome":"Fl\u00e1vio","sobrenome":"Cordeiro","cpf":"123456789-01","telefone":"11996474162","celular":"11996474162","sexo":"masculino","interesse":["maquiagem","perfumaria","cosmeticos"],"foto":"sucesso.html"}]}
