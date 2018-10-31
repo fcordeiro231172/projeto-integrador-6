@@ -62,7 +62,7 @@
 
 <div class="col-sm-4 col-lg-4 col-md-4">
     <div class="produto">
-        <a href="#"><div class="thumbnail" style="background-image:url(includes/vitrine/imagens/1.jpg)">
+        <a href="#"><div class="thumbnail" style="background-image:url(includes/vitrine/imagens/1.png)">
         </div></a>
         <div class="caption">
                 <h4 class="pull-right">R$ 50,00</h4>
@@ -79,12 +79,13 @@
                 <span class="glyphicon glyphicon-star-empty"></span>
             </p>
         </div>
+        <button type="button" class="btn btn-success">comprar</button>
     </div>
 </div>
 
 <div class="col-sm-4 col-lg-4 col-md-4">
     <div class="produto">
-        <a href="#"><div class="thumbnail" style="background-image:url(includes/vitrine/imagens/1.jpg)">
+        <a href="#"><div class="thumbnail" style="background-image:url(includes/vitrine/imagens/2.png)">
         </div></a>
         <div class="caption">
                 <h4 class="pull-right">R$ 50,00</h4>
@@ -101,12 +102,13 @@
                 <span class="glyphicon glyphicon-star-empty"></span>
             </p>
         </div>
+        <button type="button" class="btn btn-success">comprar</button>
     </div>
 </div>
 
 <div class="col-sm-4 col-lg-4 col-md-4">
     <div class="produto">
-    <a href="#"><div class="thumbnail" style="background-image:url(includes/vitrine/imagens/1.jpg)">
+    <a href="#"><div class="thumbnail" style="background-image:url(includes/vitrine/imagens/3.png)">
         </div></a>
         <div class="caption">
                 <h4 class="pull-right">R$ 50,00</h4>
@@ -123,12 +125,13 @@
                 <span class="glyphicon glyphicon-star-empty"></span>
             </p>
         </div>
+        <button type="button" class="btn btn-success">comprar</button>
     </div>
 </div>
 
 <div class="col-sm-4 col-lg-4 col-md-4">
     <div class="produto">
-    <a href="#"><div class="thumbnail" style="background-image:url(includes/vitrine/imagens/1.jpg)">
+    <a href="#"><div class="thumbnail" style="background-image:url(includes/vitrine/imagens/4.png)">
         </div></a>
         <div class="caption">
                 <h4 class="pull-right">R$ 50,00</h4>
@@ -145,12 +148,13 @@
                 <span class="glyphicon glyphicon-star-empty"></span>
             </p>
         </div>
+        <button type="button" class="btn btn-success">comprar</button>
     </div>
 </div>
 
 <div class="col-sm-4 col-lg-4 col-md-4">
     <div class="produto">
-    <a href="#"><div class="thumbnail" style="background-image:url(includes/vitrine/imagens/1.jpg)">
+    <a href="#"><div class="thumbnail" style="background-image:url(includes/vitrine/imagens/5.png)">
         </div></a>
         <div class="caption">
                 <h4 class="pull-right">R$ 50,00</h4>
@@ -167,12 +171,13 @@
                 <span class="glyphicon glyphicon-star-empty"></span>
             </p>
         </div>
+        <button type="button" class="btn btn-success">comprar</button>
     </div>
 </div>
 
 <div class="col-sm-4 col-lg-4 col-md-4">
     <div class="produto">
-    <a href="#"><div class="thumbnail" style="background-image:url(includes/vitrine/imagens/1.jpg)">
+    <a href="#"><div class="thumbnail" style="background-image:url(includes/vitrine/imagens/6.png)">
         </div></a>
         <div class="caption">
                 <h4 class="pull-right">R$ 50,00</h4>
@@ -189,12 +194,13 @@
                 <span class="glyphicon glyphicon-star-empty"></span>
             </p>
         </div>
+        <button type="button" class="btn btn-success">comprar</button>
     </div>
 </div>
 
 <div class="col-sm-4 col-lg-4 col-md-4">
     <div class="produto">
-    <a href="#"><div class="thumbnail" style="background-image:url(includes/vitrine/imagens/1.jpg)">
+    <a href="#"><div class="thumbnail" style="background-image:url(includes/vitrine/imagens/7.png)">
         </div></a>
         <div class="caption">
                 <h4 class="pull-right">R$ 50,00</h4>
@@ -211,12 +217,13 @@
                 <span class="glyphicon glyphicon-star-empty"></span>
             </p>
         </div>
+        <button type="button" class="btn btn-success">comprar</button>
     </div>
 </div>
 
 <div class="col-sm-4 col-lg-4 col-md-4">
     <div class="produto">
-    <a href="#"><div class="thumbnail" style="background-image:url(includes/vitrine/imagens/1.jpg)">
+    <a href="#"><div class="thumbnail" style="background-image:url(includes/vitrine/imagens/8.png)">
         </div></a>
         <div class="caption">
                 <h4 class="pull-right">R$ 50,00</h4>
@@ -233,12 +240,13 @@
                 <span class="glyphicon glyphicon-star-empty"></span>
             </p>
         </div>
+        <button type="button" class="btn btn-success">comprar</button>
     </div>
 </div>
 
 <div class="col-sm-4 col-lg-4 col-md-4">
     <div class="produto">
-    <a href="#"><div class="thumbnail" style="background-image:url(includes/vitrine/imagens/1.jpg)">
+    <a href="#"><div class="thumbnail" style="background-image:url(includes/vitrine/imagens/9.png)">
         </div></a>
         <div class="caption">
                 <h4 class="pull-right">R$ 50,00</h4>
@@ -255,6 +263,7 @@
                 <span class="glyphicon glyphicon-star-empty"></span>
             </p>
         </div>
+        <button type="button" class="btn btn-success">comprar</button>
     </div>
 </div>
 
